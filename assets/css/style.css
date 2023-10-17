@@ -729,7 +729,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+/* # Team
 --------------------------------------------------------------*/
 .team {
   background: #fff;
@@ -748,6 +748,11 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  border-radius: 50%; /* Change to create a circular shape */
+}
+
+.team .member .member-img img {
+  width: 100%; /* Make sure the image fills the circular shape */
 }
 
 .team .member .member-img:after {
@@ -826,7 +831,7 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
+/*--------------------------------------------------------------*/
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
